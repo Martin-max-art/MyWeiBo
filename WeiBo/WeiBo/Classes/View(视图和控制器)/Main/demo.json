@@ -1,0 +1,41 @@
+[
+  {
+    "clsName" : "LSHomeViewController",
+    "title" : "首页",
+    "vistorInforDic" : {
+      "imageName" : "",
+      "message" : "关注一些人，回这里看看有什么惊喜"
+    },
+    "imageName" : "home"
+  },
+  {
+    "clsName" : "LSMessageViewController",
+    "title" : "消息",
+    "vistorInforDic" : {
+      "imageName" : "visitordiscover_image_message",
+      "message" : "登录后，别人发给你的消息，发给你的评论，都会在这里收到通知"
+    },
+    "imageName" : "message_center"
+  },
+  {
+    "clsName" : "UIViewController"
+  },
+  {
+    "clsName" : "LSDisCoverViewController",
+    "title" : "发现",
+    "vistorInforDic" : {
+      "imageName" : "visitordiscover_image_message",
+      "message" : "登录后，最新、最热的微博尽在掌握，不再会与实事潮流擦肩而过"
+    },
+    "imageName" : "discover"
+  },
+  {
+    "clsName" : "LSMineViewController",
+    "title" : "我的",
+    "vistorInforDic" : {
+      "imageName" : "visitordiscover_image_profile",
+      "message" : "登录后你的微博、相册、个人资料都会在这里展示"
+    },
+    "imageName" : "profile"
+  }
+]
