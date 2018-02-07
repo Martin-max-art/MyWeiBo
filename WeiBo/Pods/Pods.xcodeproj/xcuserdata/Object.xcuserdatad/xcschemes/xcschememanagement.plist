@@ -40,5 +40,43 @@
 			<integer>4</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B0FFE17D63D76B467653A37B0E03016</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1E373F4D8A47E195AFCE87135305746E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E3D278C73A30EC059C6178853ED6E2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B568D215FBFDA74B5D957576822161F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7AC28EC77301AD68811D06575EFAFE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

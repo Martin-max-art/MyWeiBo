@@ -24,7 +24,7 @@ class LSBaseViewController: UIViewController{
     //如果用户没有登录就不创建
     var tableView: UITableView?
     //刷新控件
-    var refreshControl: UIRefreshControl?
+    var refreshControl: LSRefreshControl?
     //上拉刷新的标记
     var isPullRefresh:Bool = false
     
@@ -96,7 +96,7 @@ extension LSBaseViewController {
         automaticallyAdjustsScrollViewInsets = false
         
         setNavagationBar()
-        
+        setUpTableView()
         LSNetworkManager.shared.userLogon ? setUpTableView() : setupVistorView()
     }
     //设置tableView
@@ -114,10 +114,8 @@ extension LSBaseViewController {
         
         
         //创建刷新控件
-        refreshControl = UIRefreshControl()
-        let attStr: NSAttributedString = NSAttributedString(string: "正在加载...", attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 18),NSForegroundColorAttributeName: UIColor.orange])
-        refreshControl?.attributedTitle = NSAttributedString(attributedString: attStr)
-        refreshControl?.tintColor = UIColor.darkGray
+        refreshControl = LSRefreshControl()
+      
         tableView?.addSubview(refreshControl!)
         //添加监听方法
         refreshControl?.addTarget(self, action: #selector(loadData), for: .valueChanged)
@@ -176,5 +174,8 @@ extension LSBaseViewController:UITableViewDelegate, UITableViewDataSource{
             loadData()
         }
     }
-   
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+       
+        return 10
+    }
 }

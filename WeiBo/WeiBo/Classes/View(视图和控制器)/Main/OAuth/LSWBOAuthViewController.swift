@@ -41,7 +41,7 @@ class LSWBOAuthViewController: UIViewController {
         super.viewDidLoad()
        
         //加载授权页面
-        let urlString = "https://api.weibo.com/oauth2/authorize?client_id=3348409467&redirect_uri=http://www.baidu.com"
+        let urlString = "https://api.weibo.com/oauth2/authorize?client_id=\(AppKey)&redirect_uri=\(AppRedirectURL)"
         
         //1.URL 确定要访问的资源
         guard let url = URL(string: urlString) else {
@@ -95,7 +95,7 @@ extension LSWBOAuthViewController: UIWebViewDelegate{
                 self.closeView()
             }
         }
-//        LSNetworkManager.shared.loadAccessToken(code: code)
+
         
         return true
     }

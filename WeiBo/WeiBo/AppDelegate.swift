@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         setupAdditions()
         
-        
+        print(NSHomeDirectory())
       
         window = UIWindow()
         window?.backgroundColor = UIColor.white

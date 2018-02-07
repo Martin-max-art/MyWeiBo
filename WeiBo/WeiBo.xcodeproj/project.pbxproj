@@ -12,15 +12,60 @@
 		F32D71091E10BDC000BAF731 /* LSNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D71081E10BDC000BAF731 /* LSNewFeatureView.swift */; };
 		F32D710B1E10C4EA00BAF731 /* LSWelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32D710A1E10C4EA00BAF731 /* LSWelcomeView.xib */; };
 		F32D710D1E10F62800BAF731 /* LSNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32D710C1E10F62800BAF731 /* LSNewFeatureView.xib */; };
+		F32E78B51E4583CB004595DA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E78B41E4583CB004595DA /* Date+Extension.swift */; };
+		F32E78BA1E45C7B2004595DA /* LSEmoticonTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E78B91E45C7B2004595DA /* LSEmoticonTipView.swift */; };
+		F33681F71E1E1F510053AA1D /* LSRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33681F51E1E1F510053AA1D /* LSRefreshView.swift */; };
+		F33681F81E1E1F510053AA1D /* LSRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33681F61E1E1F510053AA1D /* LSRefreshView.xib */; };
+		F33681FA1E1E27B40053AA1D /* LSHumanRefresh.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33681F91E1E27B40053AA1D /* LSHumanRefresh.xib */; };
+		F33682021E1E3AEA0053AA1D /* LSMeiTuanRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33682011E1E3AEA0053AA1D /* LSMeiTuanRefreshView.xib */; };
+		F33682041E1E3AF30053AA1D /* LSMeituanRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33682031E1E3AF30053AA1D /* LSMeituanRefreshView.swift */; };
+		F33682081E1E3DEC0053AA1D /* LSComposeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33682071E1E3DEC0053AA1D /* LSComposeTypeView.swift */; };
+		F336820A1E1E40CD0053AA1D /* LSComposeTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33682091E1E40CD0053AA1D /* LSComposeTypeView.xib */; };
+		F336820C1E1E46F50053AA1D /* LSComposeTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F336820B1E1E46F50053AA1D /* LSComposeTypeButton.swift */; };
+		F336820E1E1E47050053AA1D /* LSComposeTypeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F336820D1E1E47050053AA1D /* LSComposeTypeButton.xib */; };
+		F3377C421E135C220023DE32 /* LSStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3377C411E135C220023DE32 /* LSStatusViewModel.swift */; };
+		F3377C441E1399810023DE32 /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3377C431E1399810023DE32 /* UIImageView+WebImage.swift */; };
+		F338578C1E14A4B2005F7B87 /* LSStatusToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338578B1E14A4B2005F7B87 /* LSStatusToolBar.swift */; };
+		F338578E1E14B1E9005F7B87 /* LSStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338578D1E14B1E9005F7B87 /* LSStatusPictureView.swift */; };
+		F33857901E14B6CF005F7B87 /* LSStatusPictureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338578F1E14B6CF005F7B87 /* LSStatusPictureModel.swift */; };
+		F33857921E150A0E005F7B87 /* LSStatusRetweedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33857911E150A0E005F7B87 /* LSStatusRetweedCell.xib */; };
+		F3471D191E1203DB00737EEA /* LSWBOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3471D181E1203DB00737EEA /* LSWBOAuthViewController.swift */; };
+		F348072B1E1B8656004DAA44 /* LSRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348072A1E1B8656004DAA44 /* LSRefreshControl.swift */; };
+		F36023001E2CD26600EA7B50 /* LSEmotiIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022191E2CD26500EA7B50 /* LSEmotiIconManager.swift */; };
+		F360236E1E2CD26600EA7B50 /* LSEmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022F51E2CD26600EA7B50 /* LSEmoticonAttachment.swift */; };
+		F360236F1E2CD26600EA7B50 /* LSEmotiIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022F61E2CD26600EA7B50 /* LSEmotiIconModel.swift */; };
+		F36023701E2CD26600EA7B50 /* LSEmotiIconPackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022F71E2CD26600EA7B50 /* LSEmotiIconPackageModel.swift */; };
+		F36023711E2CD26600EA7B50 /* LSEmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022F91E2CD26600EA7B50 /* LSEmoticonCell.swift */; };
+		F36023731E2CD26600EA7B50 /* LSEmoticonInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022FB1E2CD26600EA7B50 /* LSEmoticonInputView.swift */; };
+		F36023741E2CD26600EA7B50 /* LSEmoticonInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36022FC1E2CD26600EA7B50 /* LSEmoticonInputView.xib */; };
+		F36023751E2CD26600EA7B50 /* LSEmoticonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022FD1E2CD26600EA7B50 /* LSEmoticonLayout.swift */; };
+		F36023761E2CD26600EA7B50 /* LSEmoticonToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36022FE1E2CD26600EA7B50 /* LSEmoticonToolBar.swift */; };
 		F37307F51E0E74DF008B821C /* LSTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37307F41E0E74DF008B821C /* LSTitleButton.swift */; };
+		F37E93151E1F80DC00665627 /* LSComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E93141E1F80DC00665627 /* LSComposeViewController.swift */; };
+		F388286C1E271F2B00EA2BA0 /* FFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388286B1E271F2B00EA2BA0 /* FFLabel.swift */; };
+		F388286E1E2728E100EA2BA0 /* LSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388286D1E2728E100EA2BA0 /* LSWebViewController.swift */; };
+		F38828701E275C5400EA2BA0 /* LSComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F388286F1E275C5400EA2BA0 /* LSComposeViewController.xib */; };
+		F38828731E278A5600EA2BA0 /* LSComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38828721E278A5600EA2BA0 /* LSComposeTextView.swift */; };
+		F388F3981E238D4C0096015E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388F3971E238D4C0096015E /* String+Extensions.swift */; };
+		F38C73381E34BEEA0048B9D9 /* LSSQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C73361E34BEEA0048B9D9 /* LSSQLiteManager.swift */; };
+		F38C73391E34BEEA0048B9D9 /* status.sql in Resources */ = {isa = PBXBuildFile; fileRef = F38C73371E34BEEA0048B9D9 /* status.sql */; };
+		F38C733B1E34BF5A0048B9D9 /* LSStatusListDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C733A1E34BF5A0048B9D9 /* LSStatusListDAL.swift */; };
 		F38D27321E09263100657265 /* LSUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D27311E09263100657265 /* LSUserAccount.swift */; };
+		F39729AE1E48165E00661F7D /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F39729A51E48165E00661F7D /* HMPhotoBrowserAnimator.m */; };
+		F39729AF1E48165E00661F7D /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39729A71E48165E00661F7D /* HMPhotoBrowserController.m */; };
+		F39729B01E48165E00661F7D /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = F39729A91E48165E00661F7D /* HMPhotoBrowserPhotos.m */; };
+		F39729B11E48165E00661F7D /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F39729AB1E48165E00661F7D /* HMPhotoProgressView.m */; };
+		F39729B21E48165E00661F7D /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39729AD1E48165E00661F7D /* HMPhotoViewerController.m */; };
+		F398BBC81E12567900259F8B /* LSStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398BBC71E12567900259F8B /* LSStatusCell.swift */; };
+		F398BBCC1E1256E300259F8B /* LSStatusNomalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F398BBCB1E1256E300259F8B /* LSStatusNomalCell.xib */; };
+		F398BBCE1E1274B600259F8B /* LSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398BBCD1E1274B600259F8B /* LSUserModel.swift */; };
+		F3A54D7E1E13A7E10089E8A1 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A54D7D1E13A7E10089E8A1 /* UIImage+Extensions.swift */; };
 		F3B62B711E011EBE00A68A89 /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = F3B62B701E011EBE00A68A89 /* demo.json */; };
 		F3B62B741E02244100A68A89 /* LSNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B62B731E02244000A68A89 /* LSNetworkManager.swift */; };
 		F3B62B761E023CB800A68A89 /* LSNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B62B751E023CB800A68A89 /* LSNetworkManager+Extension.swift */; };
 		F3B62B781E02891500A68A89 /* LSStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B62B771E02891500A68A89 /* LSStatusModel.swift */; };
 		F3B62B7A1E028E5800A68A89 /* LSStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B62B791E028E5800A68A89 /* LSStatusListViewModel.swift */; };
 		F3B6D1991E0777EE00C01993 /* LSWeiBoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6D1981E0777EE00C01993 /* LSWeiBoCommon.swift */; };
-		F3B6D19C1E077C6000C01993 /* LSWBOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6D19B1E077C6000C01993 /* LSWBOAuthViewController.swift */; };
 		F3DDC09F1DFF989000C23B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDC09E1DFF989000C23B0D /* AppDelegate.swift */; };
 		F3DDC0A61DFF989100C23B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DDC0A51DFF989100C23B0D /* Assets.xcassets */; };
 		F3DDC0A91DFF989100C23B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DDC0A71DFF989100C23B0D /* LaunchScreen.storyboard */; };
@@ -76,15 +121,65 @@
 		F32D71081E10BDC000BAF731 /* LSNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNewFeatureView.swift; sourceTree = "<group>"; };
 		F32D710A1E10C4EA00BAF731 /* LSWelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSWelcomeView.xib; sourceTree = "<group>"; };
 		F32D710C1E10F62800BAF731 /* LSNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSNewFeatureView.xib; sourceTree = "<group>"; };
+		F32E78B41E4583CB004595DA /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		F32E78B91E45C7B2004595DA /* LSEmoticonTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonTipView.swift; sourceTree = "<group>"; };
+		F33681F51E1E1F510053AA1D /* LSRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSRefreshView.swift; sourceTree = "<group>"; };
+		F33681F61E1E1F510053AA1D /* LSRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSRefreshView.xib; sourceTree = "<group>"; };
+		F33681F91E1E27B40053AA1D /* LSHumanRefresh.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSHumanRefresh.xib; sourceTree = "<group>"; };
+		F33682011E1E3AEA0053AA1D /* LSMeiTuanRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSMeiTuanRefreshView.xib; sourceTree = "<group>"; };
+		F33682031E1E3AF30053AA1D /* LSMeituanRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSMeituanRefreshView.swift; sourceTree = "<group>"; };
+		F33682071E1E3DEC0053AA1D /* LSComposeTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeTypeView.swift; sourceTree = "<group>"; };
+		F33682091E1E40CD0053AA1D /* LSComposeTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSComposeTypeView.xib; sourceTree = "<group>"; };
+		F336820B1E1E46F50053AA1D /* LSComposeTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeTypeButton.swift; sourceTree = "<group>"; };
+		F336820D1E1E47050053AA1D /* LSComposeTypeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSComposeTypeButton.xib; sourceTree = "<group>"; };
+		F3377C411E135C220023DE32 /* LSStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusViewModel.swift; sourceTree = "<group>"; };
+		F3377C431E1399810023DE32 /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		F338578B1E14A4B2005F7B87 /* LSStatusToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusToolBar.swift; sourceTree = "<group>"; };
+		F338578D1E14B1E9005F7B87 /* LSStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusPictureView.swift; sourceTree = "<group>"; };
+		F338578F1E14B6CF005F7B87 /* LSStatusPictureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusPictureModel.swift; sourceTree = "<group>"; };
+		F33857911E150A0E005F7B87 /* LSStatusRetweedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSStatusRetweedCell.xib; sourceTree = "<group>"; };
+		F3471D181E1203DB00737EEA /* LSWBOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWBOAuthViewController.swift; sourceTree = "<group>"; };
+		F348072A1E1B8656004DAA44 /* LSRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSRefreshControl.swift; sourceTree = "<group>"; };
+		F36022191E2CD26500EA7B50 /* LSEmotiIconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmotiIconManager.swift; sourceTree = "<group>"; };
+		F36022F51E2CD26600EA7B50 /* LSEmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonAttachment.swift; sourceTree = "<group>"; };
+		F36022F61E2CD26600EA7B50 /* LSEmotiIconModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmotiIconModel.swift; sourceTree = "<group>"; };
+		F36022F71E2CD26600EA7B50 /* LSEmotiIconPackageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmotiIconPackageModel.swift; sourceTree = "<group>"; };
+		F36022F91E2CD26600EA7B50 /* LSEmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonCell.swift; sourceTree = "<group>"; };
+		F36022FB1E2CD26600EA7B50 /* LSEmoticonInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonInputView.swift; sourceTree = "<group>"; };
+		F36022FC1E2CD26600EA7B50 /* LSEmoticonInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSEmoticonInputView.xib; sourceTree = "<group>"; };
+		F36022FD1E2CD26600EA7B50 /* LSEmoticonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonLayout.swift; sourceTree = "<group>"; };
+		F36022FE1E2CD26600EA7B50 /* LSEmoticonToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSEmoticonToolBar.swift; sourceTree = "<group>"; };
 		F37307F41E0E74DF008B821C /* LSTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTitleButton.swift; sourceTree = "<group>"; };
+		F37E93141E1F80DC00665627 /* LSComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeViewController.swift; sourceTree = "<group>"; };
+		F388286B1E271F2B00EA2BA0 /* FFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLabel.swift; sourceTree = "<group>"; };
+		F388286D1E2728E100EA2BA0 /* LSWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWebViewController.swift; sourceTree = "<group>"; };
+		F388286F1E275C5400EA2BA0 /* LSComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSComposeViewController.xib; sourceTree = "<group>"; };
+		F38828721E278A5600EA2BA0 /* LSComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeTextView.swift; sourceTree = "<group>"; };
+		F388F3971E238D4C0096015E /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F38C73361E34BEEA0048B9D9 /* LSSQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSSQLiteManager.swift; sourceTree = "<group>"; };
+		F38C73371E34BEEA0048B9D9 /* status.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.sql; sourceTree = "<group>"; };
+		F38C733A1E34BF5A0048B9D9 /* LSStatusListDAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusListDAL.swift; sourceTree = "<group>"; };
 		F38D27311E09263100657265 /* LSUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSUserAccount.swift; sourceTree = "<group>"; };
+		F39729A41E48165E00661F7D /* HMPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserAnimator.h; sourceTree = "<group>"; };
+		F39729A51E48165E00661F7D /* HMPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserAnimator.m; sourceTree = "<group>"; };
+		F39729A61E48165E00661F7D /* HMPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserController.h; sourceTree = "<group>"; };
+		F39729A71E48165E00661F7D /* HMPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserController.m; sourceTree = "<group>"; };
+		F39729A81E48165E00661F7D /* HMPhotoBrowserPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserPhotos.h; sourceTree = "<group>"; };
+		F39729A91E48165E00661F7D /* HMPhotoBrowserPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserPhotos.m; sourceTree = "<group>"; };
+		F39729AA1E48165E00661F7D /* HMPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoProgressView.h; sourceTree = "<group>"; };
+		F39729AB1E48165E00661F7D /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
+		F39729AC1E48165E00661F7D /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
+		F39729AD1E48165E00661F7D /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		F398BBC71E12567900259F8B /* LSStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusCell.swift; sourceTree = "<group>"; };
+		F398BBCB1E1256E300259F8B /* LSStatusNomalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSStatusNomalCell.xib; sourceTree = "<group>"; };
+		F398BBCD1E1274B600259F8B /* LSUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSUserModel.swift; sourceTree = "<group>"; };
+		F3A54D7D1E13A7E10089E8A1 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		F3B62B701E011EBE00A68A89 /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
 		F3B62B731E02244000A68A89 /* LSNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNetworkManager.swift; sourceTree = "<group>"; };
 		F3B62B751E023CB800A68A89 /* LSNetworkManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LSNetworkManager+Extension.swift"; sourceTree = "<group>"; };
 		F3B62B771E02891500A68A89 /* LSStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusModel.swift; sourceTree = "<group>"; };
 		F3B62B791E028E5800A68A89 /* LSStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStatusListViewModel.swift; sourceTree = "<group>"; };
 		F3B6D1981E0777EE00C01993 /* LSWeiBoCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWeiBoCommon.swift; sourceTree = "<group>"; };
-		F3B6D19B1E077C6000C01993 /* LSWBOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWBOAuthViewController.swift; sourceTree = "<group>"; };
 		F3DDC09B1DFF989000C23B0D /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DDC09E1DFF989000C23B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DDC0A51DFF989100C23B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -189,6 +284,75 @@
 			path = Newpicture;
 			sourceTree = "<group>";
 		};
+		F33682051E1E3D460053AA1D /* Compose(撰写微博) */ = {
+			isa = PBXGroup;
+			children = (
+				F38828711E278A2E00EA2BA0 /* View */,
+				F33682061E1E3D460053AA1D /* ComposeType */,
+				F37E93141E1F80DC00665627 /* LSComposeViewController.swift */,
+				F388286F1E275C5400EA2BA0 /* LSComposeViewController.xib */,
+			);
+			name = "Compose(撰写微博)";
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		F33682061E1E3D460053AA1D /* ComposeType */ = {
+			isa = PBXGroup;
+			children = (
+				F33682071E1E3DEC0053AA1D /* LSComposeTypeView.swift */,
+				F33682091E1E40CD0053AA1D /* LSComposeTypeView.xib */,
+				F336820B1E1E46F50053AA1D /* LSComposeTypeButton.swift */,
+				F336820D1E1E47050053AA1D /* LSComposeTypeButton.xib */,
+			);
+			path = ComposeType;
+			sourceTree = "<group>";
+		};
+		F34807291E1B8634004DAA44 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				F348072A1E1B8656004DAA44 /* LSRefreshControl.swift */,
+				F33681F51E1E1F510053AA1D /* LSRefreshView.swift */,
+				F33682031E1E3AF30053AA1D /* LSMeituanRefreshView.swift */,
+				F33681F61E1E1F510053AA1D /* LSRefreshView.xib */,
+				F33681F91E1E27B40053AA1D /* LSHumanRefresh.xib */,
+				F33682011E1E3AEA0053AA1D /* LSMeiTuanRefreshView.xib */,
+			);
+			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		F36022171E2CD26500EA7B50 /* EmotiIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F36022191E2CD26500EA7B50 /* LSEmotiIconManager.swift */,
+				F360221A1E2CD26500EA7B50 /* Model */,
+				F36022F81E2CD26600EA7B50 /* View */,
+			);
+			path = EmotiIcon;
+			sourceTree = "<group>";
+		};
+		F360221A1E2CD26500EA7B50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F36022F51E2CD26600EA7B50 /* LSEmoticonAttachment.swift */,
+				F36022F61E2CD26600EA7B50 /* LSEmotiIconModel.swift */,
+				F36022F71E2CD26600EA7B50 /* LSEmotiIconPackageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F36022F81E2CD26600EA7B50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F36022F91E2CD26600EA7B50 /* LSEmoticonCell.swift */,
+				F36022FB1E2CD26600EA7B50 /* LSEmoticonInputView.swift */,
+				F36022FC1E2CD26600EA7B50 /* LSEmoticonInputView.xib */,
+				F36022FD1E2CD26600EA7B50 /* LSEmoticonLayout.swift */,
+				F36022FE1E2CD26600EA7B50 /* LSEmoticonToolBar.swift */,
+				F32E78B91E45C7B2004595DA /* LSEmoticonTipView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F37307F01E0E744C008B821C /* TitleButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,12 +361,66 @@
 			path = TitleButton;
 			sourceTree = "<group>";
 		};
+		F388286A1E271F2B00EA2BA0 /* FFLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F388286B1E271F2B00EA2BA0 /* FFLabel.swift */,
+			);
+			path = FFLabel;
+			sourceTree = "<group>";
+		};
+		F38828711E278A2E00EA2BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F38828721E278A5600EA2BA0 /* LSComposeTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F38C73351E34BEEA0048B9D9 /* SQlite */ = {
+			isa = PBXGroup;
+			children = (
+				F38C73361E34BEEA0048B9D9 /* LSSQLiteManager.swift */,
+				F38C73371E34BEEA0048B9D9 /* status.sql */,
+			);
+			path = SQlite;
+			sourceTree = "<group>";
+		};
 		F38D27301E09259D00657265 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				F38D27311E09263100657265 /* LSUserAccount.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F39729A31E48165E00661F7D /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				F39729A61E48165E00661F7D /* HMPhotoBrowserController.h */,
+				F39729A71E48165E00661F7D /* HMPhotoBrowserController.m */,
+				F39729A41E48165E00661F7D /* HMPhotoBrowserAnimator.h */,
+				F39729A51E48165E00661F7D /* HMPhotoBrowserAnimator.m */,
+				F39729A81E48165E00661F7D /* HMPhotoBrowserPhotos.h */,
+				F39729A91E48165E00661F7D /* HMPhotoBrowserPhotos.m */,
+				F39729AA1E48165E00661F7D /* HMPhotoProgressView.h */,
+				F39729AB1E48165E00661F7D /* HMPhotoProgressView.m */,
+				F39729AC1E48165E00661F7D /* HMPhotoViewerController.h */,
+				F39729AD1E48165E00661F7D /* HMPhotoViewerController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		F398BBC41E12560F00259F8B /* StatusCell */ = {
+			isa = PBXGroup;
+			children = (
+				F398BBC71E12567900259F8B /* LSStatusCell.swift */,
+				F338578B1E14A4B2005F7B87 /* LSStatusToolBar.swift */,
+				F338578D1E14B1E9005F7B87 /* LSStatusPictureView.swift */,
+				F398BBCB1E1256E300259F8B /* LSStatusNomalCell.xib */,
+				F33857911E150A0E005F7B87 /* LSStatusRetweedCell.xib */,
+			);
+			path = StatusCell;
 			sourceTree = "<group>";
 		};
 		F3B62B721E02240000A68A89 /* Network */ = {
@@ -218,7 +436,7 @@
 		F3B6D19A1E077C2E00C01993 /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
-				F3B6D19B1E077C6000C01993 /* LSWBOAuthViewController.swift */,
+				F3471D181E1203DB00737EEA /* LSWBOAuthViewController.swift */,
 			);
 			path = OAuth;
 			sourceTree = "<group>";
@@ -291,6 +509,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B62B771E02891500A68A89 /* LSStatusModel.swift */,
+				F398BBCD1E1274B600259F8B /* LSUserModel.swift */,
+				F338578F1E14B6CF005F7B87 /* LSStatusPictureModel.swift */,
 			);
 			path = "Model(模型)";
 			sourceTree = "<group>";
@@ -298,10 +518,15 @@
 		F3DDC0CE1DFF9A4300C23B0D /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				F3B6D1981E0777EE00C01993 /* LSWeiBoCommon.swift */,
+				F39729A31E48165E00661F7D /* PhotoBrowser */,
 				F3B62B721E02240000A68A89 /* Network */,
+				F38C73351E34BEEA0048B9D9 /* SQlite */,
+				F36022171E2CD26500EA7B50 /* EmotiIcon */,
+				F388286A1E271F2B00EA2BA0 /* FFLabel */,
+				F34807291E1B8634004DAA44 /* RefreshControl */,
 				F3DDC0CF1DFF9A4300C23B0D /* Additions */,
 				F3DDC0E91DFF9A4300C23B0D /* Extension */,
-				F3B6D1981E0777EE00C01993 /* LSWeiBoCommon.swift */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -342,7 +567,11 @@
 			isa = PBXGroup;
 			children = (
 				F3DDC0EA1DFF9A4300C23B0D /* Bundle+Extension.swift */,
+				F388F3971E238D4C0096015E /* String+Extensions.swift */,
 				F3DDC0EB1DFF9A4300C23B0D /* UIBarButtonIterm+Extension.swift */,
+				F3377C431E1399810023DE32 /* UIImageView+WebImage.swift */,
+				F3A54D7D1E13A7E10089E8A1 /* UIImage+Extensions.swift */,
+				F32E78B41E4583CB004595DA /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -350,6 +579,7 @@
 		F3DDC0EC1DFF9A4300C23B0D /* View(视图和控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				F33682051E1E3D460053AA1D /* Compose(撰写微博) */,
 				F3DDC0F11DFF9A4300C23B0D /* Main */,
 				F3DDC0ED1DFF9A4300C23B0D /* Discover */,
 				F3DDC0EF1DFF9A4300C23B0D /* Home */,
@@ -370,8 +600,10 @@
 		F3DDC0EF1DFF9A4300C23B0D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F398BBC41E12560F00259F8B /* StatusCell */,
 				F37307F01E0E744C008B821C /* TitleButton */,
 				F3DDC0F01DFF9A4300C23B0D /* LSHomeViewController.swift */,
+				F388286D1E2728E100EA2BA0 /* LSWebViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -419,6 +651,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B62B791E028E5800A68A89 /* LSStatusListViewModel.swift */,
+				F38C733A1E34BF5A0048B9D9 /* LSStatusListDAL.swift */,
+				F3377C411E135C220023DE32 /* LSStatusViewModel.swift */,
 			);
 			path = "ViewModel(视图模型)";
 			sourceTree = "<group>";
@@ -503,7 +737,7 @@
 				TargetAttributes = {
 					F3DDC09A1DFF989000C23B0D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2F5MVB69AU;
+						DevelopmentTeam = U77535S5Y5;
 						ProvisioningStyle = Automatic;
 					};
 					F3DDC0AE1DFF989100C23B0D = {
@@ -543,11 +777,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36023741E2CD26600EA7B50 /* LSEmoticonInputView.xib in Resources */,
 				F32D710B1E10C4EA00BAF731 /* LSWelcomeView.xib in Resources */,
 				F3DDC0A91DFF989100C23B0D /* LaunchScreen.storyboard in Resources */,
+				F33857921E150A0E005F7B87 /* LSStatusRetweedCell.xib in Resources */,
+				F33681F81E1E1F510053AA1D /* LSRefreshView.xib in Resources */,
+				F33681FA1E1E27B40053AA1D /* LSHumanRefresh.xib in Resources */,
 				F3B62B711E011EBE00A68A89 /* demo.json in Resources */,
+				F336820A1E1E40CD0053AA1D /* LSComposeTypeView.xib in Resources */,
 				F3DDC0A61DFF989100C23B0D /* Assets.xcassets in Resources */,
+				F33682021E1E3AEA0053AA1D /* LSMeiTuanRefreshView.xib in Resources */,
+				F38828701E275C5400EA2BA0 /* LSComposeViewController.xib in Resources */,
+				F38C73391E34BEEA0048B9D9 /* status.sql in Resources */,
+				F398BBCC1E1256E300259F8B /* LSStatusNomalCell.xib in Resources */,
 				F32D710D1E10F62800BAF731 /* LSNewFeatureView.xib in Resources */,
+				F336820E1E1E47050053AA1D /* LSComposeTypeButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,39 +864,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39729AE1E48165E00661F7D /* HMPhotoBrowserAnimator.m in Sources */,
+				F360236F1E2CD26600EA7B50 /* LSEmotiIconModel.swift in Sources */,
+				F348072B1E1B8656004DAA44 /* LSRefreshControl.swift in Sources */,
 				F38D27321E09263100657265 /* LSUserAccount.swift in Sources */,
 				F3DDC10A1DFF9A4300C23B0D /* LSDisCoverViewController.swift in Sources */,
 				F3DDC1071DFF9A4300C23B0D /* UIViewController+CZAddition.m in Sources */,
 				F3DDC1081DFF9A4300C23B0D /* Bundle+Extension.swift in Sources */,
+				F36023761E2CD26600EA7B50 /* LSEmoticonToolBar.swift in Sources */,
 				F3DDC09F1DFF989000C23B0D /* AppDelegate.swift in Sources */,
 				F3DDC0FC1DFF9A4300C23B0D /* NSArray+Log.m in Sources */,
+				F39729AF1E48165E00661F7D /* HMPhotoBrowserController.m in Sources */,
+				F338578E1E14B1E9005F7B87 /* LSStatusPictureView.swift in Sources */,
+				F336820C1E1E46F50053AA1D /* LSComposeTypeButton.swift in Sources */,
 				F3B62B7A1E028E5800A68A89 /* LSStatusListViewModel.swift in Sources */,
+				F3A54D7E1E13A7E10089E8A1 /* UIImage+Extensions.swift in Sources */,
+				F36023711E2CD26600EA7B50 /* LSEmoticonCell.swift in Sources */,
 				F3DDC1101DFF9A4300C23B0D /* LSMessageViewController.swift in Sources */,
+				F37E93151E1F80DC00665627 /* LSComposeViewController.swift in Sources */,
 				F3DDC1051DFF9A4300C23B0D /* UIScreen+CZAddition.m in Sources */,
+				F36023731E2CD26600EA7B50 /* LSEmoticonInputView.swift in Sources */,
+				F388286C1E271F2B00EA2BA0 /* FFLabel.swift in Sources */,
 				F3DDC10B1DFF9A4300C23B0D /* LSHomeViewController.swift in Sources */,
+				F398BBC81E12567900259F8B /* LSStatusCell.swift in Sources */,
+				F39729B11E48165E00661F7D /* HMPhotoProgressView.m in Sources */,
 				F3DDC1061DFF9A4300C23B0D /* UIView+CZAddition.m in Sources */,
+				F33682041E1E3AF30053AA1D /* LSMeituanRefreshView.swift in Sources */,
+				F32E78BA1E45C7B2004595DA /* LSEmoticonTipView.swift in Sources */,
+				F36023001E2CD26600EA7B50 /* LSEmotiIconManager.swift in Sources */,
 				F37307F51E0E74DF008B821C /* LSTitleButton.swift in Sources */,
+				F3471D191E1203DB00737EEA /* LSWBOAuthViewController.swift in Sources */,
 				F3B62B741E02244100A68A89 /* LSNetworkManager.swift in Sources */,
+				F33857901E14B6CF005F7B87 /* LSStatusPictureModel.swift in Sources */,
+				F33681F71E1E1F510053AA1D /* LSRefreshView.swift in Sources */,
+				F36023751E2CD26600EA7B50 /* LSEmoticonLayout.swift in Sources */,
+				F38828731E278A5600EA2BA0 /* LSComposeTextView.swift in Sources */,
 				F32D71091E10BDC000BAF731 /* LSNewFeatureView.swift in Sources */,
 				F3DDC0FD1DFF9A4300C23B0D /* NSAttributedString+CZAdditon.m in Sources */,
 				F3B62B761E023CB800A68A89 /* LSNetworkManager+Extension.swift in Sources */,
 				F3DDC0FE1DFF9A4300C23B0D /* NSObject+CZRuntime.m in Sources */,
 				F3B6D1991E0777EE00C01993 /* LSWeiBoCommon.swift in Sources */,
 				F3DDC10E1DFF9A4300C23B0D /* LSNavgationController.swift in Sources */,
+				F338578C1E14A4B2005F7B87 /* LSStatusToolBar.swift in Sources */,
+				F38C733B1E34BF5A0048B9D9 /* LSStatusListDAL.swift in Sources */,
+				F3377C441E1399810023DE32 /* UIImageView+WebImage.swift in Sources */,
+				F388286E1E2728E100EA2BA0 /* LSWebViewController.swift in Sources */,
 				F3DDC10C1DFF9A4300C23B0D /* LSBaseViewController.swift in Sources */,
 				F3DDC1111DFF9A4300C23B0D /* LSMineViewController.swift in Sources */,
 				F3DDC1151DFFD41600C23B0D /* LSVistorView.swift in Sources */,
 				F3DDC10F1DFF9A4300C23B0D /* LSDemoViewController.swift in Sources */,
+				F38C73381E34BEEA0048B9D9 /* LSSQLiteManager.swift in Sources */,
+				F360236E1E2CD26600EA7B50 /* LSEmoticonAttachment.swift in Sources */,
 				F3DDC10D1DFF9A4300C23B0D /* LSMainViewController.swift in Sources */,
+				F388F3981E238D4C0096015E /* String+Extensions.swift in Sources */,
 				F3DDC1011DFF9A4300C23B0D /* NSString+CZPath.m in Sources */,
 				F3DDC1001DFF9A4300C23B0D /* NSString+CZHash.m in Sources */,
+				F3377C421E135C220023DE32 /* LSStatusViewModel.swift in Sources */,
 				F32D71071E10BD4F00BAF731 /* LSWelcomeView.swift in Sources */,
+				F32E78B51E4583CB004595DA /* Date+Extension.swift in Sources */,
 				F3DDC1091DFF9A4300C23B0D /* UIBarButtonIterm+Extension.swift in Sources */,
+				F398BBCE1E1274B600259F8B /* LSUserModel.swift in Sources */,
+				F39729B21E48165E00661F7D /* HMPhotoViewerController.m in Sources */,
 				F3DDC1021DFF9A4300C23B0D /* UIButton+CZAddition.m in Sources */,
+				F39729B01E48165E00661F7D /* HMPhotoBrowserPhotos.m in Sources */,
 				F3DDC1041DFF9A4300C23B0D /* UILabel+CZAddition.m in Sources */,
 				F3DDC0FF1DFF9A4300C23B0D /* NSString+CZBase64.m in Sources */,
 				F3B62B781E02891500A68A89 /* LSStatusModel.swift in Sources */,
-				F3B6D19C1E077C6000C01993 /* LSWBOAuthViewController.swift in Sources */,
+				F36023701E2CD26600EA7B50 /* LSEmotiIconPackageModel.swift in Sources */,
+				F33682081E1E3DEC0053AA1D /* LSComposeTypeView.swift in Sources */,
 				F3DDC1031DFF9A4300C23B0D /* UIColor+CZAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,6 +997,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -768,6 +1048,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -799,7 +1080,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 2F5MVB69AU;
+				DEVELOPMENT_TEAM = U77535S5Y5;
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -807,6 +1088,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WeiBo/WeiBo-Bridge.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -816,7 +1098,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 2F5MVB69AU;
+				DEVELOPMENT_TEAM = U77535S5Y5;
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -824,6 +1106,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WeiBo/WeiBo-Bridge.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

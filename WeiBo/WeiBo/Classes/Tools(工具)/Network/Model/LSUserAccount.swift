@@ -13,7 +13,7 @@ fileprivate let accounfFile: NSString = "useraccount.json"
 //用户账户信息
 class LSUserAccount: NSObject {
     //访问令牌
-    var access_token: String?// = "2.00MoeccD_QabeDe862172222rlzW6E"
+    var access_token: String? = "2.00MoeccD_QabeDb88289b96a0ZpbwP"
     //用户代号
     var uid: String?
     //开发者是5年  使用者是3天
